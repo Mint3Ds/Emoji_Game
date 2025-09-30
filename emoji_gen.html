@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="emoji_gen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Guess the WORD!!</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="CSS_logo icon.png">
+            <h1 class="headertext">Computer Science Society</h1>
+        </div>
+        <section class="timer">
+            <h3 style="font-size: 150%;">Timer:</h3>
+            <div id="timer" class="clock">3:00</div>
+        </section>
+    </header>
+    <main>
+        <div id="gameOverScreen" class="gameOverScreen">
+            <div id="inner-screen" class="inner-screen">
+                <div id="winner" class="winner"></div>
+            </div>
+        </div>
+        <div id="screen-flash"></div>
+        <section class="square">
+            
+           <h2 class="text">Guess the Word!</h2>
+
+
+           
+                <section class="scores">
+
+                    <section class="score1">
+                            <div id="username1"></div>
+                            <h2 class="Player1text" id="Player1text">Player1</h2>
+                            <i class="fa-solid fa-gamepad fa-5x" id="fa-gamepad"></i>
+                            <div id="Score1" class="score1num"> 0</div>
+                            <!-- <button onclick="player1Score(); newEmoji();">+point</button> -->
+                    </section>
+               
+
+            
+                    <section>
+                        <div id="emoji"></div>
+                        <!-- <div id="abc"></div> -->
+                    </section>
+                    
+                    <section class="score2">
+                            <h2 class="Player2text" id="Player2text">Player2</h2>
+                            <i class="fa-solid fa-gamepad fa-5x" id="fa-gamepad2"></i>
+                            <div id="Score2" class="score2num">0</div>
+                            <!-- <button onclick="player2Score(); newEmoji();">+point</button> -->
+                    </section>
+                </section>
+            
+            
+            <!-- <button onclick="newEmoji();">Skip</button> -->
+            
+        
+        </section>
+
+<!-- 
+        <section class="scores">
+                <section class="score1">
+                        <h2>Player1</h2>
+                        <div id="Score1"> 0</div>
+                    <button onclick="player1Score(); newEmoji();">+point</button>
+                </section>
+                <button onclick="newEmoji();">Skip</button>
+                <section class="score2">
+                    <h2>Player2</h2>
+                    <div id="Score2">0</div>
+                    <button onclick="player2Score(); newEmoji();">+point</button>
+                </section>
+        </section>
+        
+ -->
+
+
+        
+    </main>
+
+    <footer>
+        <p class="footertext">© MinPyaePhyo , Computer Science Society</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <script src="emoji_gen.js"></script>
+</body>
+</html>
