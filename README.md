@@ -16,8 +16,3 @@ n - add player2 name
 t - start timer
 b - change timer
 
-
-
-⭐⭐⭐ Complete under time limit with minimal gates
-⭐⭐ Complete the level
-⭐ Complete with hints
