@@ -6,7 +6,7 @@ Objective: To guess as many words as you can.
 
 KeyBinds:
 
-1 - add Player 1 score (+1)
+1 - add Player 1 score (+1) 
 2 - minus Player 1 score (-1)
 "-" - minus Player 2 score (-1)
 "=" - add Playter 2 score (+1)
